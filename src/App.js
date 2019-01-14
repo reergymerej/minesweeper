@@ -101,7 +101,7 @@ const getGrid = ({ rowCount, colCount, bombs }) => {
   }))
 }
 
-const gameGrid = getGrid({ rowCount: 7, colCount: 6, bombs: 3 })
+const gameGrid = getGrid({ rowCount: 7, colCount: 16, bombs: 3 })
 
 class App extends Component {
   render() {
